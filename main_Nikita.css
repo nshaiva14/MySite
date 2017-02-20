@@ -1,0 +1,166 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.top_row {
+  display: flex;
+  align-items: center;
+}
+
+body.home {
+  font-family: 'Optima', sans-serif;
+  background-image: url('mts2.jpg');
+  background-blend-mode: lighten;
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+body.about {
+  font-family: 'Optima', sans-serif;
+  background-image: url('beach.jpg');
+  background-blend-mode: lighten;
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+body.interests {
+  font-family: 'Optima', sans-serif;
+  background-image: url('cliff.jpg');
+  background-blend-mode: lighten;
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.page-description {
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+  font-size: 15px;
+}
+
+ul#socialmed {
+	list-style: none;
+	padding-top: 20px;
+}
+	
+ul#socialmed li {
+	display: inline;
+
+}
+
+ul#socialmed li img {
+	width: 40px;
+	height: 40px;
+}
+
+.photos {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-item {
+	margin: 10px;
+}
+
+.photo-item .thumbnail {
+  border: 3px solid #000;
+}
+
+p.main {
+	font-size: 12px;
+	display: inline;
+	padding: 20px; 
+}
+
+div.transbox {
+  padding: 5px;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  color: #000000;
+}
+
+p.bottom {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+/* FOOTER NAVIGATION */
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+  float: right;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+footer .bottom_row {
+  display: flex;
+  align-items: center;
+}
+
+.col-md-4 {
+  margin: 0 0 0px;
+}
+
+footer {
+  margin 100px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.right_credit {
+  position:absolute;
+  bottom:0;
+  right:0;
+  padding: 1rem;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
